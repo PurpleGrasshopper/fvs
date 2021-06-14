@@ -71,8 +71,8 @@ NodeID random_walk(std::vector<NodeID>& scc,
                    std::vector<int>& comp_num,
                    graph_access& G,
                    std::vector<int>& counter_vector,
-                   int walk_length)
-{        
+                   int walk_length) {       
+
         int nodes_visited = 1;
 
         //choose random first node in scc
@@ -109,38 +109,15 @@ NodeID random_walk(std::vector<NodeID>& scc,
         }
 
         return max_node;
-
 }
 
-NodeID mapping_recovery(std::vector<std::vector<NodeID>>& mappings_list,
-                        NodeID& node) {
-
-        int current_mapping = mappings_list.size()-1;
-        //std::cout << "current_mapping" << current_mapping << std::endl;
-        NodeID current_node = node;
-        while (current_mapping >= 0)
-        {
-                //std::cout << "current node" << current_node << std::endl;
-                /*
-                for(int i = 0; i < mappings_list[current_mapping].size(); i++)
-                {
-                        std::cout << "mapping[" << i << "] " << mappings_list[current_mapping][i] << std::endl;
-                } */
-                NodeID new_node = mappings_list[current_mapping][current_node];
-                //std::cout << "new node" << new_node << std::endl;
-                current_node = new_node;
-                current_mapping -= 1;
-        }
-
-        return current_node;
-}
 
 void fvs_iteration(std::vector<NodeID>& feedback_vertex_set,
-                   std::vector<std::vector<NodeID>>& mappings_list,
                    bool& done,
                    std::vector<std::vector<NodeID>>& comp_vector,
                    std::vector<int>& comp_num,
-                   std::vector<NodeID>& mapping,
+                   std::vector<NodeID>& old_mapping,
+                   std::vector<NodeID>& current_mapping,
                    graph_access& Graph) {
 
         //monitor fvs size change, if it doesn't change, we are done
@@ -149,6 +126,16 @@ void fvs_iteration(std::vector<NodeID>& feedback_vertex_set,
         std::vector<NodeID> current_nodes;
         //create counter vector for nodes we want to remove/collect in the fvs
         std::vector<int> counter_vector;
+
+        /*
+        std::cout << "mapping order " << std::endl;
+        for(int i = 0; i < current_mapping.size(); i++)
+        {
+                std::cout << "index " << i << " mapping index: " << current_mapping[i];
+                std::cout << std::endl;
+        }
+        */
+
 
         counter_vector.resize(Graph.number_of_nodes());
 
@@ -161,9 +148,9 @@ void fvs_iteration(std::vector<NodeID>& feedback_vertex_set,
                 }
                 else
                 {
-                        NodeID current_max = random_walk(comp_vector[comp], comp_num, Graph, counter_vector, 100);
+                        NodeID current_max = random_walk(comp_vector[comp], comp_num, Graph, counter_vector, 10);
                         //recover original mapping
-                        NodeID current_max_recovered = mapping_recovery(mappings_list, current_max);
+                        NodeID current_max_recovered = old_mapping[current_mapping[current_max]];
                         //add it to fvs
                         feedback_vertex_set.push_back(current_max_recovered);                        
                         //mark it for removal
@@ -186,11 +173,12 @@ void fvs_iteration(std::vector<NodeID>& feedback_vertex_set,
                 for(NodeID node = 0; node < comp_vector[comp].size(); node++)
                 {
                         std::cout << "node: " << comp_vector[comp][node]
-                        << ", recovered node: "<< mapping_recovery(mappings_list, comp_vector[comp][node])+1
+                        << ", recovered node: "<< old_mapping[current_mapping[comp_vector[comp][node]]]+1
                         << ", counter " << counter_vector[comp_vector[comp][node]]
                         << ", Partition " << Graph.getPartitionIndex(comp_vector[comp][node]) << std::endl;
                 }
         }
+
 
         std::cout << std::endl;
         //print out current feedback vertex set
@@ -198,7 +186,7 @@ void fvs_iteration(std::vector<NodeID>& feedback_vertex_set,
 
         for(int i = 0; i < feedback_vertex_set.size(); i++)
         {
-                std::cout << feedback_vertex_set[i] << " ";
+                std::cout << feedback_vertex_set[i]+1 << " ";
         }
 
         std::cout << std::endl;
@@ -210,28 +198,23 @@ void fvs_iteration(std::vector<NodeID>& feedback_vertex_set,
         graph_extractor ge;
         //create graph_access object needed for extraction
         graph_access temp_graph;
+        //create and order mapping for correct node recovery by new indices
+        for(int i = 0; i < current_mapping.size(); i++)
+        {
+                current_mapping[i] = old_mapping[current_mapping[i]];
+        }
+        old_mapping = current_mapping;
+        std::vector<NodeID> new_mapping;
         //extract marked nodes
-        ge.extract_block(Graph, temp_graph, 0, mapping);
+        ge.extract_block(Graph, temp_graph, 0, new_mapping);
         //assign new graph via deep copy
         temp_graph.copy(Graph);
         //set partition indices to 0
         forall_nodes(Graph, node) {
                 Graph.setPartitionIndex(node,0);
         } endfor
-
-        /*
-        std::cout << "mapping order " << std::endl;
-        for(int i = 0; i < mapping.size(); i++)
-        {
-                std::cout << "index " << i << " mapping index: " << mapping[i];
-                std::cout << std::endl;
-        }
-        */
-
-        //insert current mapping to mappings_list
-        mappings_list.push_back(mapping);
-        
-     
+        //update current mapping
+        current_mapping = new_mapping;
 }
 
 std::vector<NodeID> fvs(graph_access& Graph, 
@@ -240,18 +223,16 @@ std::vector<NodeID> fvs(graph_access& Graph,
         //monitor progress
         bool done = false;
 
-        //create mapping vector, so we can recover the original nodes from the new graph later
-        std::vector<std::vector<NodeID>> mappings_list;
-        //push back original mapping
-        std::vector<NodeID> mapping_original;
+        //create original mapping
+        std::vector<NodeID> old_mapping;
 
         for(int i = 0; i < Graph.number_of_nodes(); i++)
         {
-                mapping_original.push_back(i);
+                old_mapping.push_back(i);
         }
-
-        mappings_list.push_back(mapping_original);
         int iter = 0;
+        //create new, current mapping
+        std::vector<NodeID> current_mapping = old_mapping;
 
         while (!done)
         {
@@ -269,35 +250,12 @@ std::vector<NodeID> fvs(graph_access& Graph,
                 int comp_count = scc.strong_components(Graph, scc_by_node);
                 //create vector of vectors, which stores every scc with its nodes
                 std::vector<std::vector<NodeID>> scc_vector = build_scc_vector(scc_by_node, comp_count);
-                //create new, current mapping
-                std::vector<NodeID> mapping;
                 //get nodes we want to remove and add to fvs for the current iteration
                 //then assign the current graph to the newly created graph, which
                 //doesn't hold the nodes we marked for deletion anymore
-                fvs_iteration(feedback_vertex_set, mappings_list, done, scc_vector, scc_by_node, mapping, Graph);
+                fvs_iteration(feedback_vertex_set, done, scc_vector, scc_by_node, old_mapping, current_mapping, Graph);
                 iter++;               
         }
-        /*
-        cycle_search cs;
-        std::vector<NodeID> cycle;
-        cs.find_random_cycle(Graph, cycle);
-        std::cout << "Cycle found? " << std::endl;
-        if(cycle.size() > 1)
-        {
-                std::cout << "yes" << std::endl;
-                std::cout << std::endl;
-        
-                for(NodeID i = 0; i < cycle.size(); i++)
-                {
-                        std::cout << mapping_recovery(mappings_list, cycle[i])+1 << std::endl;
-                }
-        }
-        else
-        {
-                std::cout << "no" << std::endl; 
-        } */
-        
-        
 
         return feedback_vertex_set;
 }
@@ -351,26 +309,6 @@ int main(int argn, char **argv) {
         } endfor
         */
         
-        /*
-        cycle_search cs;
-        std::vector<NodeID> cycle;
-        cs.find_random_cycle(G, cycle);
-        std::cout << "Cycle found? " << std::endl;
-        if(cycle.size() != 0)
-        {
-                std::cout << "yes" << std::endl;
-                std::cout << std::endl;
-        
-                for(NodeID i = 0; i < cycle.size(); i++)
-                {
-                        std::cout << cycle[i]+1 << std::endl;
-                }
-        }
-        else
-        {
-                std::cout << "no" << std::endl; 
-        }
-        */
 
         //create fvs vector
         std::vector<NodeID> fvs1;
@@ -380,7 +318,6 @@ int main(int argn, char **argv) {
         std::cout << std::endl;
         std::cout << "----------------------------------------------------------" << std::endl;
         std::cout << std::endl;
-        
         std::cout << "fvs size: " << fvs1.size() << std::endl;
 
         std::cout << "fvs: " << std::endl;
