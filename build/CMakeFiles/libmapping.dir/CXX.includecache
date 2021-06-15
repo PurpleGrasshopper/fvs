@@ -1,0 +1,502 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../app/balance_configuration.h
+data_structure/graph_access.h
+../app/data_structure/graph_access.h
+partition/partition_config.h
+../app/partition/partition_config.h
+
+../app/configuration.h
+partition/partition_config.h
+../app/partition/partition_config.h
+
+../lib/algorithms/cycle_search.h
+data_structure/graph_access.h
+../lib/algorithms/data_structure/graph_access.h
+
+../lib/data_structure/graph_access.h
+bitset
+-
+cassert
+-
+iostream
+-
+vector
+-
+definitions.h
+../lib/data_structure/definitions.h
+
+../lib/data_structure/graph_hierarchy.h
+stack
+-
+graph_access.h
+../lib/data_structure/graph_access.h
+uncoarsening/refinement/quotient_graph_refinement/partial_boundary.h
+../lib/data_structure/uncoarsening/refinement/quotient_graph_refinement/partial_boundary.h
+
+../lib/data_structure/matrix/matrix.h
+
+../lib/data_structure/matrix/normal_matrix.h
+vector
+-
+iostream
+-
+matrix.h
+../lib/data_structure/matrix/matrix.h
+
+../lib/data_structure/priority_queues/maxNodeHeap.h
+limits
+-
+vector
+-
+unordered_map
+-
+execinfo.h
+-
+data_structure/priority_queues/priority_queue_interface.h
+../lib/data_structure/priority_queues/data_structure/priority_queues/priority_queue_interface.h
+
+../lib/data_structure/priority_queues/priority_queue_interface.h
+definitions.h
+../lib/data_structure/priority_queues/definitions.h
+
+../lib/definitions.h
+limits
+-
+queue
+-
+vector
+-
+limits.h
+../lib/limits.h
+macros_assertions.h
+../lib/macros_assertions.h
+stdio.h
+../lib/stdio.h
+
+../lib/partition/coarsening/coarsening.h
+data_structure/graph_access.h
+../lib/partition/coarsening/data_structure/graph_access.h
+data_structure/graph_hierarchy.h
+../lib/partition/coarsening/data_structure/graph_hierarchy.h
+partition_config.h
+../lib/partition/coarsening/partition_config.h
+
+../lib/partition/coarsening/stop_rules/stop_rules.h
+math.h
+-
+partition_config.h
+../lib/partition/coarsening/stop_rules/partition_config.h
+
+../lib/partition/graph_partitioner.h
+coarsening/coarsening.h
+../lib/partition/coarsening/coarsening.h
+coarsening/stop_rules/stop_rules.h
+../lib/partition/coarsening/stop_rules/stop_rules.h
+data_structure/graph_access.h
+../lib/partition/data_structure/graph_access.h
+partition_config.h
+../lib/partition/partition_config.h
+uncoarsening/refinement/refinement.h
+../lib/partition/uncoarsening/refinement/refinement.h
+
+../lib/partition/partition_config.h
+iosfwd
+-
+definitions.h
+../lib/partition/definitions.h
+
+../lib/partition/uncoarsening/refinement/cycle_improvements/advanced_models.h
+vector
+-
+augmented_Qgraph_fabric.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/augmented_Qgraph_fabric.h
+definitions.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/definitions.h
+quality_metrics.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/quality_metrics.h
+uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.h
+uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/two_way_fm.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/two_way_fm.h
+uncoarsening/refinement/refinement.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/refinement.h
+
+../lib/partition/uncoarsening/refinement/cycle_improvements/augmented_Qgraph.h
+algorithm
+-
+unordered_map
+-
+vector
+-
+definitions.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/definitions.h
+uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.h
+uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/two_way_fm.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/two_way_fm.h
+
+../lib/partition/uncoarsening/refinement/cycle_improvements/augmented_Qgraph_fabric.h
+algorithm
+-
+vector
+-
+augmented_Qgraph.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/augmented_Qgraph.h
+definitions.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/definitions.h
+uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.h
+uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/two_way_fm.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/two_way_fm.h
+uncoarsening/refinement/refinement.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/refinement.h
+
+../lib/partition/uncoarsening/refinement/cycle_improvements/cycle_definitions.h
+unordered_map
+-
+uncoarsening/refinement/quotient_graph_refinement/complete_boundary.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/quotient_graph_refinement/complete_boundary.h
+
+../lib/partition/uncoarsening/refinement/cycle_improvements/cycle_refinement.h
+advanced_models.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/advanced_models.h
+cycle_definitions.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/cycle_definitions.h
+definitions.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/definitions.h
+greedy_neg_cycle.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/greedy_neg_cycle.h
+random_functions.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/random_functions.h
+uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.h
+uncoarsening/refinement/refinement.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/refinement.h
+
+../lib/partition/uncoarsening/refinement/cycle_improvements/greedy_neg_cycle.h
+algorithms/cycle_search.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/algorithms/cycle_search.h
+cycle_definitions.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/cycle_definitions.h
+data_structure/graph_access.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/data_structure/graph_access.h
+definitions.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/definitions.h
+partition_config.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/partition_config.h
+problem_factory.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/problem_factory.h
+uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.h
+uncoarsening/refinement/quotient_graph_refinement/complete_boundary.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/quotient_graph_refinement/complete_boundary.h
+
+../lib/partition/uncoarsening/refinement/cycle_improvements/problem_factory.h
+definitions.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/definitions.h
+partition_config.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/partition_config.h
+uncoarsening/refinement/quotient_graph_refinement/complete_boundary.h
+../lib/partition/uncoarsening/refinement/cycle_improvements/uncoarsening/refinement/quotient_graph_refinement/complete_boundary.h
+
+../lib/partition/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.h
+vector
+-
+data_structure/priority_queues/priority_queue_interface.h
+../lib/partition/uncoarsening/refinement/kway_graph_refinement/data_structure/priority_queues/priority_queue_interface.h
+definitions.h
+../lib/partition/uncoarsening/refinement/kway_graph_refinement/definitions.h
+random_functions.h
+../lib/partition/uncoarsening/refinement/kway_graph_refinement/random_functions.h
+uncoarsening/refinement/refinement.h
+../lib/partition/uncoarsening/refinement/kway_graph_refinement/uncoarsening/refinement/refinement.h
+uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/vertex_moved_hashtable.h
+../lib/partition/uncoarsening/refinement/kway_graph_refinement/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/vertex_moved_hashtable.h
+
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/two_way_fm.h
+vector
+-
+data_structure/graph_access.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/data_structure/graph_access.h
+data_structure/priority_queues/priority_queue_interface.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/data_structure/priority_queues/priority_queue_interface.h
+definitions.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/definitions.h
+partition_config.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/partition_config.h
+uncoarsening/refinement/quotient_graph_refinement/complete_boundary.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/uncoarsening/refinement/quotient_graph_refinement/complete_boundary.h
+uncoarsening/refinement/quotient_graph_refinement/partial_boundary.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/uncoarsening/refinement/quotient_graph_refinement/partial_boundary.h
+uncoarsening/refinement/quotient_graph_refinement/two_way_refinement.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/uncoarsening/refinement/quotient_graph_refinement/two_way_refinement.h
+vertex_moved_hashtable.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/vertex_moved_hashtable.h
+
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/vertex_moved_hashtable.h
+unordered_map
+-
+definitions.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/definitions.h
+limits.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/limits.h
+
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/boundary_lookup.h
+unordered_map
+-
+definitions.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/definitions.h
+limits.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/limits.h
+partial_boundary.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/partial_boundary.h
+
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/complete_boundary.h
+execinfo.h
+-
+unordered_map
+-
+utility
+-
+boundary_lookup.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/boundary_lookup.h
+data_structure/graph_access.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/data_structure/graph_access.h
+partial_boundary.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/partial_boundary.h
+partition_config.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/partition_config.h
+
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/partial_boundary.h
+unordered_map
+-
+definitions.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/definitions.h
+
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/two_way_refinement.h
+definitions.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/definitions.h
+
+../lib/partition/uncoarsening/refinement/refinement.h
+data_structure/graph_access.h
+../lib/partition/uncoarsening/refinement/data_structure/graph_access.h
+partition_config.h
+../lib/partition/uncoarsening/refinement/partition_config.h
+quotient_graph_refinement/complete_boundary.h
+../lib/partition/uncoarsening/refinement/quotient_graph_refinement/complete_boundary.h
+
+../lib/tools/graph_extractor.h
+data_structure/graph_access.h
+../lib/tools/data_structure/graph_access.h
+definitions.h
+../lib/tools/definitions.h
+
+../lib/tools/macros_assertions.h
+cassert
+-
+cmath
+-
+cstdio
+-
+cstdlib
+-
+iostream
+-
+macros_common.h
+../lib/tools/macros_common.h
+
+../lib/tools/macros_common.h
+
+../lib/tools/quality_metrics.h
+data_structure/graph_access.h
+../lib/tools/data_structure/graph_access.h
+data_structure/matrix/matrix.h
+../lib/tools/data_structure/matrix/matrix.h
+partition_config.h
+../lib/tools/partition_config.h
+
+../lib/tools/random_functions.h
+iostream
+-
+random
+-
+vector
+-
+definitions.h
+../lib/tools/definitions.h
+partition_config.h
+../lib/tools/partition_config.h
+
+../lib/tools/timer.h
+sys/time.h
+-
+sys/resource.h
+-
+unistd.h
+-
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/communication_graph_search_space.cpp
+communication_graph_search_space.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/communication_graph_search_space.h
+tools/random_functions.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/random_functions.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/communication_graph_search_space.h
+utility
+-
+unordered_map
+-
+data_structure/graph_access.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/graph_access.h
+tools/random_functions.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/random_functions.h
+partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/partition_config.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/construct_distance_matrix.h
+data_structure/matrix/matrix.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/matrix/matrix.h
+partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/partition_config.h
+tools/random_functions.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/random_functions.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/construct_mapping.cpp
+cstdio
+-
+construct_mapping.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/construct_mapping.h
+tools/random_functions.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/random_functions.h
+fast_construct_mapping.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/fast_construct_mapping.h
+data_structure/priority_queues/maxNodeHeap.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/priority_queues/maxNodeHeap.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/construct_mapping.h
+data_structure/graph_access.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/graph_access.h
+data_structure/matrix/matrix.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/matrix/matrix.h
+partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/partition_config.h
+tools/quality_metrics.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/quality_metrics.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/fast_construct_mapping.cpp
+fstream
+-
+balance_configuration.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/balance_configuration.h
+graph_partitioner.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/graph_partitioner.h
+configuration.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/configuration.h
+partition/uncoarsening/refinement/cycle_improvements/cycle_refinement.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/partition/uncoarsening/refinement/cycle_improvements/cycle_refinement.h
+fast_construct_mapping.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/fast_construct_mapping.h
+tools/graph_extractor.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/graph_extractor.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/fast_construct_mapping.h
+data_structure/graph_access.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/graph_access.h
+data_structure/matrix/matrix.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/matrix/matrix.h
+partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/partition_config.h
+tools/quality_metrics.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/quality_metrics.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/full_search_space.cpp
+full_search_space.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/full_search_space.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/full_search_space.h
+utility
+-
+data_structure/graph_access.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/graph_access.h
+partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/partition_config.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/full_search_space_pruned.cpp
+full_search_space_pruned.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/full_search_space_pruned.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/full_search_space_pruned.h
+utility
+-
+data_structure/graph_access.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/graph_access.h
+partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/partition_config.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/local_search_mapping.cpp
+tools/quality_metrics.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/quality_metrics.h
+tools/random_functions.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/random_functions.h
+tools/timer.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/timer.h
+local_search_mapping.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/local_search_mapping.h
+full_search_space.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/full_search_space.h
+communication_graph_search_space.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/communication_graph_search_space.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/local_search_mapping.h
+partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/partition_config.h
+data_structure/graph_access.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/graph_access.h
+data_structure/matrix/matrix.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/matrix/matrix.h
+tools/timer.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/timer.h
+tools/quality_metrics.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/quality_metrics.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/mapping_algorithms.cpp
+algorithm
+-
+communication_graph_search_space.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/communication_graph_search_space.h
+construct_distance_matrix.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/construct_distance_matrix.h
+construct_mapping.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/construct_mapping.h
+full_search_space.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/full_search_space.h
+full_search_space_pruned.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/full_search_space_pruned.h
+local_search_mapping.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/local_search_mapping.h
+mapping_algorithms.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/mapping_algorithms.h
+partition/partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/partition/partition_config.h
+tools/random_functions.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/random_functions.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/mapping_algorithms.h
+data_structure/graph_access.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/graph_access.h
+data_structure/matrix/normal_matrix.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/data_structure/matrix/normal_matrix.h
+partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/partition_config.h
+tools/quality_metrics.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/quality_metrics.h
+tools/timer.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/mapping/tools/timer.h
+

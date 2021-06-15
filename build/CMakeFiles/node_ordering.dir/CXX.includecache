@@ -1,0 +1,204 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../extern/argtable3-3.0.3/argtable3.h
+stdio.h
+-
+time.h
+-
+
+../lib/data_structure/graph_access.h
+bitset
+-
+cassert
+-
+iostream
+-
+vector
+-
+definitions.h
+../lib/data_structure/definitions.h
+
+../lib/definitions.h
+limits
+-
+queue
+-
+vector
+-
+limits.h
+../lib/limits.h
+macros_assertions.h
+../lib/macros_assertions.h
+stdio.h
+../lib/stdio.h
+
+../lib/io/graph_io.h
+fstream
+-
+iostream
+-
+limits
+-
+ostream
+-
+stdio.h
+-
+stdlib.h
+-
+vector
+-
+definitions.h
+../lib/io/definitions.h
+data_structure/graph_access.h
+../lib/io/data_structure/graph_access.h
+
+../lib/node_ordering/nested_dissection.h
+iosfwd
+-
+memory
+-
+unordered_map
+-
+vector
+-
+data_structure/graph_access.h
+../lib/node_ordering/data_structure/graph_access.h
+definitions.h
+../lib/node_ordering/definitions.h
+node_ordering/reductions.h
+../lib/node_ordering/node_ordering/reductions.h
+partition/partition_config.h
+../lib/node_ordering/partition/partition_config.h
+
+../lib/node_ordering/ordering_tools.h
+iosfwd
+-
+vector
+-
+definitions.h
+../lib/node_ordering/definitions.h
+
+../lib/node_ordering/reductions.h
+array
+-
+iostream
+-
+iomanip
+-
+memory
+-
+unordered_map
+-
+vector
+-
+data_structure/graph_access.h
+../lib/node_ordering/data_structure/graph_access.h
+definitions.h
+../lib/node_ordering/definitions.h
+node_ordering/ordering_tools.h
+../lib/node_ordering/node_ordering/ordering_tools.h
+partition/partition_config.h
+../lib/node_ordering/partition/partition_config.h
+
+../lib/partition/partition_config.h
+iosfwd
+-
+definitions.h
+../lib/partition/definitions.h
+
+../lib/tools/macros_assertions.h
+cassert
+-
+cmath
+-
+cstdio
+-
+cstdlib
+-
+iostream
+-
+macros_common.h
+../lib/tools/macros_common.h
+
+../lib/tools/macros_common.h
+
+../lib/tools/random_functions.h
+iostream
+-
+random
+-
+vector
+-
+definitions.h
+../lib/tools/definitions.h
+partition_config.h
+../lib/tools/partition_config.h
+
+../lib/tools/timer.h
+sys/time.h
+-
+sys/resource.h
+-
+unistd.h
+-
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/balance_configuration.h
+data_structure/graph_access.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/data_structure/graph_access.h
+partition/partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/partition/partition_config.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/configuration.h
+partition/partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/partition/partition_config.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/node_ordering.cpp
+argtable3.h
+-
+iostream
+-
+regex.h
+-
+fstream
+-
+stdio.h
+-
+string.h
+-
+balance_configuration.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/balance_configuration.h
+data_structure/graph_access.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/data_structure/graph_access.h
+node_ordering/nested_dissection.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/node_ordering/nested_dissection.h
+node_ordering/ordering_tools.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/node_ordering/ordering_tools.h
+node_ordering/reductions.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/node_ordering/reductions.h
+io/graph_io.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/io/graph_io.h
+parse_parameters.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/parse_parameters.h
+partition/partition_config.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/partition/partition_config.h
+timer.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/timer.h
+tools/random_functions.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/tools/random_functions.h
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/parse_parameters.h
+omp.h
+-
+string
+-
+sstream
+-
+configuration.h
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/configuration.h
+

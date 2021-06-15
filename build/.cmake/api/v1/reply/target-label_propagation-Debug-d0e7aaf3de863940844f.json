@@ -1,0 +1,726 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "label_propagation"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 257,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 260,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 258,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIE   -funroll-loops -fno-stack-limit -Wall -march=native -fpermissive -Wno-unused-result -Wno-sign-compare -fopenmp"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "MODE_LABELPROPAGATION"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/extern/argtable3-3.0.3"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/io"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/tools"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "libkaffpa::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "libmapping::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "label_propagation::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpthread.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "label_propagation",
+	"nameOnDisk" : "label_propagation",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "app/label_propagation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/data_structure/graph_hierarchy.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/algorithms/strongly_connected_components.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/algorithms/topological_sort.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/algorithms/push_relabel.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/io/graph_io.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/tools/quality_metrics.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/tools/random_functions.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/tools/graph_extractor.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/tools/misc.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/tools/partition_snapshooter.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/graph_partitioner.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/w_cycles/wcycle_partitioner.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/coarsening/coarsening.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/coarsening/contraction.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/coarsening/edge_rating/edge_ratings.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/coarsening/matching/matching.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/coarsening/matching/random_matching.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/coarsening/matching/gpa/path.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/coarsening/matching/gpa/gpa_matching.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/coarsening/matching/gpa/path_set.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/coarsening/clustering/node_ordering.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/coarsening/clustering/size_constraint_label_propagation.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/initial_partitioning/initial_partitioning.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/initial_partitioning/initial_partitioner.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/initial_partitioning/initial_partition_bipartition.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/initial_partitioning/initial_refinement/initial_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/initial_partitioning/bipartition.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/initial_partitioning/initial_node_separator.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/uncoarsening.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/separator/area_bfs.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/separator/vertex_separator_algorithm.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/separator/vertex_separator_flow_solver.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/cycle_improvements/greedy_neg_cycle.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/cycle_improvements/problem_factory.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/cycle_improvements/augmented_Qgraph.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/mixed_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/label_propagation_refinement/label_propagation_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/quotient_graph_refinement/2way_fm_refinement/two_way_fm.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement/two_way_flow_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement/boundary_bfs.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement/flow_solving_kernel/cut_flow_problem_solver.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement/most_balanced_minimum_cuts/most_balanced_minimum_cuts.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/quotient_graph_refinement/quotient_graph_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/quotient_graph_refinement/complete_boundary.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/quotient_graph_refinement/partial_boundary.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/quotient_graph_refinement/quotient_graph_scheduling/quotient_graph_scheduling.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/quotient_graph_refinement/quotient_graph_scheduling/simple_quotient_graph_scheduler.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/quotient_graph_refinement/quotient_graph_scheduling/active_block_quotient_graph_scheduler.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_core.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/kway_graph_refinement/kway_graph_refinement_commons.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/cycle_improvements/augmented_Qgraph_fabric.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/cycle_improvements/advanced_models.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/kway_graph_refinement/multitry_kway_fm.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/node_separators/greedy_ns_local_search.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/node_separators/fm_ns_local_search.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/node_separators/localized_fm_ns_local_search.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/algorithms/cycle_search.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/cycle_improvements/cycle_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/lib/partition/uncoarsening/refinement/tabu_search/tabu_search.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libkaffpa.dir/extern/argtable3-3.0.3/argtable3.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libmapping.dir/lib/mapping/local_search_mapping.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libmapping.dir/lib/mapping/full_search_space.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libmapping.dir/lib/mapping/full_search_space_pruned.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libmapping.dir/lib/mapping/communication_graph_search_space.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libmapping.dir/lib/mapping/fast_construct_mapping.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libmapping.dir/lib/mapping/construct_distance_matrix.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libmapping.dir/lib/mapping/mapping_algorithms.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/libmapping.dir/lib/mapping/construct_mapping.cpp.o",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

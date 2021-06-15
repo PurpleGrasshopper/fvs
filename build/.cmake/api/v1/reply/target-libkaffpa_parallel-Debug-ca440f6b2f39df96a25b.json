@@ -1,0 +1,243 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/libkaffpa_parallel.dir/lib/parallel_mh/parallel_mh_async.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/libkaffpa_parallel.dir/lib/parallel_mh/population.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/libkaffpa_parallel.dir/lib/parallel_mh/galinier_combine/gal_combine.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/libkaffpa_parallel.dir/lib/parallel_mh/galinier_combine/construct_partition.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/libkaffpa_parallel.dir/lib/parallel_mh/exchange/exchanger.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/libkaffpa_parallel.dir/lib/tools/graph_communication.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/libkaffpa_parallel.dir/lib/tools/mpi_tools.cpp.o"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC   -funroll-loops -fno-stack-limit -Wall -march=native -fpermissive -Wno-unused-result -Wno-sign-compare -fopenmp"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/extern/argtable3-3.0.3"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/io"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/tools"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"id" : "libkaffpa_parallel::@6890427a1f51a3e7e1df",
+	"name" : "libkaffpa_parallel",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/parallel_mh/parallel_mh_async.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/parallel_mh/population.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/parallel_mh/galinier_combine/gal_combine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/parallel_mh/galinier_combine/construct_partition.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/parallel_mh/exchange/exchanger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/tools/graph_communication.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/tools/mpi_tools.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

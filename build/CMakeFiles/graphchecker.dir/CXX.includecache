@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/graphchecker.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+fstream
+-
+sstream
+-
+limits
+-
+vector
+-
+unordered_set
+-
+

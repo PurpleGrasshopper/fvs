@@ -1,0 +1,469 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "parallel/parallel_src/libparhip_interface_static.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"parallel/parallel_src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 108,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 109,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 110,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 111,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 112,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 113,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC   -funroll-loops -fno-stack-limit -Wall -march=native -fpermissive -Wno-unused-result -Wno-sign-compare -fopenmp"
+				},
+				{
+					"backtrace" : 1,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"backtrace" : 1,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "GRAPH_GENERATOR_MPI -DGRAPHGEN_DISTRIBUTED_MEMORY -DPARALLEL_LABEL_COMPRESSION"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "NOOUTPUT"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/parallel_src/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/parallel_src/lib/io"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/parallel_src/lib/partition"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/parallel_src/lib/tools"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/parallel_src/lib"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/parallel_src/app"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/extern/argtable3-3.0.3"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/io"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/tools"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/parallel_src/interface"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/modified_kahip/interface"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "libmodified_kahip_interface::@220d51177e47dae78743"
+		},
+		{
+			"id" : "libparallel::@aa067d553adcd04b1f3c"
+		}
+	],
+	"id" : "parhip_interface_static::@aa067d553adcd04b1f3c",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "parhip_interface_static",
+	"nameOnDisk" : "libparhip_interface_static.a",
+	"paths" : 
+	{
+		"build" : "parallel/parallel_src",
+		"source" : "parallel/parallel_src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "parallel/parallel_src/interface/parhip_interface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/data_structure/parallel_graph_access.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/data_structure/balance_management.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/data_structure/balance_management_refinement.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/data_structure/balance_management_coarsening.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/parallel_label_compress/node_ordering.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/parallel_contraction_projection/parallel_contraction.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/parallel_contraction_projection/parallel_block_down_propagation.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/parallel_contraction_projection/parallel_projection.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/distributed_partitioning/distributed_partitioner.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/distributed_partitioning/initial_partitioning/initial_partitioning.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/distributed_partitioning/initial_partitioning/distributed_evolutionary_partitioning.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/distributed_partitioning/initial_partitioning/random_initial_partitioning.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/communication/mpi_tools.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/communication/dummy_operations.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/io/parallel_graph_io.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/io/parallel_vector_io.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/tools/random_functions.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/lib/tools/distributed_quality_metrics.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/parallel/parallel_src/CMakeFiles/libparallel.dir/extern/argtable3-3.0.3/argtable3.c.o",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

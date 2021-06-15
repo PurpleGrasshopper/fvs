@@ -1,0 +1,274 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "parallel/modified_kahip/CMakeFiles/libmodified_kaffpa_async.dir/lib/parallel_mh/parallel_mh_async.cpp.o"
+		},
+		{
+			"path" : "parallel/modified_kahip/CMakeFiles/libmodified_kaffpa_async.dir/lib/parallel_mh/population.cpp.o"
+		},
+		{
+			"path" : "parallel/modified_kahip/CMakeFiles/libmodified_kaffpa_async.dir/lib/parallel_mh/exchange/exchanger.cpp.o"
+		},
+		{
+			"path" : "parallel/modified_kahip/CMakeFiles/libmodified_kaffpa_async.dir/lib/tools/graph_communication.cpp.o"
+		},
+		{
+			"path" : "parallel/modified_kahip/CMakeFiles/libmodified_kaffpa_async.dir/lib/tools/mpi_tools.cpp.o"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"parallel/modified_kahip/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 108,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 109,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 110,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 111,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 112,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 113,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC   -funroll-loops -fno-stack-limit -Wall -march=native -fpermissive -Wno-unused-result -Wno-sign-compare -fopenmp"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/modified_kahip/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/modified_kahip/lib/io"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/modified_kahip/lib/partition"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/modified_kahip/lib/tools"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/parallel/modified_kahip/lib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/extern/argtable3-3.0.3"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/io"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/tools"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"id" : "libmodified_kaffpa_async::@220d51177e47dae78743",
+	"name" : "libmodified_kaffpa_async",
+	"paths" : 
+	{
+		"build" : "parallel/modified_kahip",
+		"source" : "parallel/modified_kahip"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "parallel/modified_kahip/lib/parallel_mh/parallel_mh_async.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "parallel/modified_kahip/lib/parallel_mh/population.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "parallel/modified_kahip/lib/parallel_mh/exchange/exchanger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "parallel/modified_kahip/lib/tools/graph_communication.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "parallel/modified_kahip/lib/tools/mpi_tools.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
