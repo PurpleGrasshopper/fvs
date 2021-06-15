@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS = -g -fPIC   -funroll-loops -fno-stack-limit -Wall -march=native -fpermissive -Wno-unused-result -Wno-sign-compare -fopenmp
+C_FLAGS = -O3 -DNDEBUG -fPIC   -funroll-loops -fno-stack-limit -Wall -march=native -fpermissive -Wno-unused-result -Wno-sign-compare -fopenmp
 
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/extern/argtable3-3.0.3" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/io" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/tools" 
+C_INCLUDES = -I/home/c_schulz/sandbox/fvs -I/home/c_schulz/sandbox/fvs/app -I/home/c_schulz/sandbox/fvs/extern/argtable3-3.0.3 -I/home/c_schulz/sandbox/fvs/lib -I/home/c_schulz/sandbox/fvs/lib/io -I/home/c_schulz/sandbox/fvs/lib/partition -I/home/c_schulz/sandbox/fvs/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement -I/home/c_schulz/sandbox/fvs/lib/tools 
 
-CXX_FLAGS = -g -fPIC   -funroll-loops -fno-stack-limit -Wall -march=native -fpermissive -Wno-unused-result -Wno-sign-compare -fopenmp -std=c++11
+CXX_FLAGS = -O3 -DNDEBUG -fPIC   -funroll-loops -fno-stack-limit -Wall -march=native -fpermissive -Wno-unused-result -Wno-sign-compare -fopenmp -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/extern/argtable3-3.0.3" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/io" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement" -I"/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/lib/tools" 
+CXX_INCLUDES = -I/home/c_schulz/sandbox/fvs -I/home/c_schulz/sandbox/fvs/app -I/home/c_schulz/sandbox/fvs/extern/argtable3-3.0.3 -I/home/c_schulz/sandbox/fvs/lib -I/home/c_schulz/sandbox/fvs/lib/io -I/home/c_schulz/sandbox/fvs/lib/partition -I/home/c_schulz/sandbox/fvs/lib/partition/uncoarsening/refinement/quotient_graph_refinement/flow_refinement -I/home/c_schulz/sandbox/fvs/lib/tools 
 

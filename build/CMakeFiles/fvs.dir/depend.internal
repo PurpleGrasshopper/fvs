@@ -40,7 +40,7 @@ CMakeFiles/fvs.dir/app/feedbackvertexset.cpp.o
  ../lib/tools/quality_metrics.h
  ../lib/tools/random_functions.h
  ../lib/tools/timer.h
- /home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/balance_configuration.h
- /home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/configuration.h
- /home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/feedbackvertexset.cpp
- /home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/app/parse_parameters.h
+ /home/c_schulz/sandbox/fvs/app/balance_configuration.h
+ /home/c_schulz/sandbox/fvs/app/configuration.h
+ /home/c_schulz/sandbox/fvs/app/feedbackvertexset.cpp
+ /home/c_schulz/sandbox/fvs/app/parse_parameters.h

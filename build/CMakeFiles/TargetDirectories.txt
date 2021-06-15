@@ -1,53 +1,8 @@
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/install/strip.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/install/local.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/install.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/list_install_components.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/edge_partitioning.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/graphchecker.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/global_multisection.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/rebuild_cache.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/edit_cache.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/libkaffpa_parallel.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/libspac.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/kaffpaE.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/libkaffpa.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/evaluator.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/interface.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/libmapping.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/libnodeordering.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/interface_static.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/kaffpa.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/interface_test.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/node_ordering.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/node_separator.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/label_propagation.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/fvs.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/CMakeFiles/partition_to_vertex_separator.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/modified_kahip/CMakeFiles/install/strip.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/modified_kahip/CMakeFiles/install/local.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/modified_kahip/CMakeFiles/install.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/modified_kahip/CMakeFiles/list_install_components.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/modified_kahip/CMakeFiles/rebuild_cache.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/modified_kahip/CMakeFiles/edit_cache.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/modified_kahip/CMakeFiles/libmodified_kahip_interface.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/modified_kahip/CMakeFiles/libmodified_kaffpa_async.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/modified_kahip/CMakeFiles/libmodified_kaffpa.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/install.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/rebuild_cache.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/edit_cache.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/libparallel.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/libgraph2bgf.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/parhip.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/toolbox.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/edge_list_to_metis_graph.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/install/strip.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/graph2binary.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/list_install_components.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/graph2binary_external.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/dspac.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/libedgelist.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/readbgf.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/parhip_interface.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/install/local.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/libdspac.dir
-/home/wayfarer/Desktop/SS 2021/AlgorithmEngineeringAnfaengerpraktikum/KaHIP-3.10/build/parallel/parallel_src/CMakeFiles/parhip_interface_static.dir
+/home/c_schulz/sandbox/fvs/build/CMakeFiles/install/strip.dir
+/home/c_schulz/sandbox/fvs/build/CMakeFiles/install/local.dir
+/home/c_schulz/sandbox/fvs/build/CMakeFiles/edit_cache.dir
+/home/c_schulz/sandbox/fvs/build/CMakeFiles/install.dir
+/home/c_schulz/sandbox/fvs/build/CMakeFiles/list_install_components.dir
+/home/c_schulz/sandbox/fvs/build/CMakeFiles/rebuild_cache.dir
+/home/c_schulz/sandbox/fvs/build/CMakeFiles/fvs.dir
+/home/c_schulz/sandbox/fvs/build/CMakeFiles/libkaffpa.dir

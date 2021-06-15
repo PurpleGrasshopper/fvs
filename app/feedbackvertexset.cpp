@@ -282,13 +282,7 @@ int main(int argn, char **argv) {
                 return 0;
         }
 
-        std::streambuf* backup = std::cout.rdbuf();
-        std::ofstream ofs;
-        ofs.open("/dev/null");
-        if(suppress_output) {
-                std::cout.rdbuf(ofs.rdbuf()); 
-        }
-
+        
         partition_config.LogDump(stdout);
         graph_access G;     
 

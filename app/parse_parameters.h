@@ -238,7 +238,7 @@ int parse_parameters(int argn, char **argv,
                 maxT, maxIter, minipreps, mh_penalty_for_unconnected, mh_enable_kabapE,
 #elif defined MODE_KAFFPA
                 //use_mmap_io, 
-                #ifndef MODE_GLOBALMS*/
+                #ifndef MODE_GLOBALMS
                 //k, 
                 #endif
                 /*imbalance,  
