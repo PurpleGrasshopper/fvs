@@ -873,6 +873,10 @@ int parse_parameters(int argn, char **argv,
                 partition_config.seed = user_seed->ival[0];
         }
 
+        if (user_walk_length->count > 0) {
+                partition_config.walk_length = user_walk_length->ival[0];
+        }
+
         if (fm_search_limit->count > 0) {
                 partition_config.fm_search_limit = fm_search_limit->ival[0];
         }

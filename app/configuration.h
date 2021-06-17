@@ -489,6 +489,9 @@ inline void configuration::standard( PartitionConfig & partition_config ) {
         partition_config.ilp_limit_nonzeroes = 5000000;
         partition_config.ilp_overlap_runs = 3;
         partition_config.ilp_timeout = 7200;
+
+        //feedback vertex set parameters
+        partition_config.walk_length = 100;
 }
 
 inline void configuration::standardsnw( PartitionConfig & partition_config ) {

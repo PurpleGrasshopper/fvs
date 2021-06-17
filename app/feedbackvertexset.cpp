@@ -315,7 +315,6 @@ int main(int argn, char **argv) {
 
         PartitionConfig partition_config;
         std::string graph_filename;
-        //int walk_length;
 
         bool is_graph_weighted = false;
         bool suppress_output   = false;
@@ -330,12 +329,6 @@ int main(int argn, char **argv) {
         if(ret_code) {
                 return 0;
         }
-        /*
-        for (int i = 0; i < argn; ++i)
-        {
-                printf("argv[%d]: %s\n", i, argv[i]);
-        }
-        */
         
         partition_config.LogDump(stdout);
         graph_access G;     
@@ -356,15 +349,14 @@ int main(int argn, char **argv) {
                 } endfor
         } endfor
         */
-        
-        //std::cout << "ba: " << argv[2] << std::endl;
 
-        int walk_length = 10;
         //create fvs vector
         std::vector<NodeID> fvs1;
         //copy Grpah for later solution checking
         graph_access G2;
         G.copy(G2);
+        int walk_length = partition_config.walk_length;
+
         //run fvs function
         fvs(G, fvs1, walk_length);
 

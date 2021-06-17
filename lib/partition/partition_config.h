@@ -287,6 +287,8 @@ struct PartitionConfig
 
         bool mode_node_separators;
 
+        int walk_length;
+
         //=======================================
         //===========SNW PARTITIONING============
         //=======================================
