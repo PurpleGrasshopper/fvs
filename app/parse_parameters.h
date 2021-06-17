@@ -46,6 +46,7 @@ int parse_parameters(int argn, char **argv,
         struct arg_str *filename                             = arg_strn(NULL, NULL, "FILE", 1, 1, "Path to graph file to partition.");
         struct arg_str *filename_output                      = arg_str0(NULL, "output_filename", NULL, "Specify the name of the output file (that contains the partition).");
         struct arg_int *user_seed                            = arg_int0(NULL, "seed", NULL, "Seed to use for the PRNG.");
+        struct arg_int *user_walk_length                     = arg_int1(NULL, "walk_length", NULL, "Set walk length. It gets multiplied by the scc size for the total walk length.");
 #ifndef MODE_GLOBALMS
         struct arg_int *k                                    = arg_int1(NULL, "k", NULL, "Number of blocks to partition the graph.");
 #else
@@ -253,6 +254,7 @@ int parse_parameters(int argn, char **argv,
                 distance_parameter_string,
                 online_distances,*/
                 filename_output, 
+                user_walk_length,
 #elif defined MODE_EVALUATOR
                 k,   
                 preconfiguration, 
