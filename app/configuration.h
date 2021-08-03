@@ -492,6 +492,8 @@ inline void configuration::standard( PartitionConfig & partition_config ) {
 
         //feedback vertex set parameters
         partition_config.walk_length = 100;
+        partition_config.max_removal = 1;
+        partition_config.random_removal = false;
 }
 
 inline void configuration::standardsnw( PartitionConfig & partition_config ) {

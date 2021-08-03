@@ -43,10 +43,12 @@ int parse_parameters(int argn, char **argv,
         struct arg_lit *enable_convergence                   = arg_lit0(NULL, "enable_convergence", "Enables convergence mode, i.e. every step is running until no change.(Default: disabled).");
         struct arg_lit *enable_omp                           = arg_lit0(NULL, "enable_omp", "Enable parallel omp.");
         struct arg_lit *wcycle_no_new_initial_partitioning   = arg_lit0(NULL, "wcycle_no_new_initial_partitioning", "Using this option, the graph is initially partitioned only the first time we are at the deepest level.");
+        struct arg_lit *random_removal                       = arg_lit0(NULL, "random_removal", "Enables random removal.");
         struct arg_str *filename                             = arg_strn(NULL, NULL, "FILE", 1, 1, "Path to graph file to partition.");
         struct arg_str *filename_output                      = arg_str0(NULL, "output_filename", NULL, "Specify the name of the output file (that contains the partition).");
         struct arg_int *user_seed                            = arg_int0(NULL, "seed", NULL, "Seed to use for the PRNG.");
-        struct arg_int *user_walk_length                     = arg_int1(NULL, "walk_length", NULL, "Set walk length. It gets multiplied by the scc size for the total walk length.");
+        struct arg_int *user_walk_length                     = arg_int0(NULL, "walk_length", NULL, "Set walk length. It gets multiplied by the scc size for the total walk length.");
+        struct arg_int *user_max_removal                     = arg_int0(NULL, "max_removal", NULL, "Set maximum node removal per iteration.");
 #ifndef MODE_GLOBALMS
         struct arg_int *k                                    = arg_int1(NULL, "k", NULL, "Number of blocks to partition the graph.");
 #else
@@ -255,6 +257,9 @@ int parse_parameters(int argn, char **argv,
                 online_distances,*/
                 filename_output, 
                 user_walk_length,
+                user_max_removal,
+                random_removal,
+		user_seed,
 #elif defined MODE_EVALUATOR
                 k,   
                 preconfiguration, 
@@ -875,6 +880,14 @@ int parse_parameters(int argn, char **argv,
 
         if (user_walk_length->count > 0) {
                 partition_config.walk_length = user_walk_length->ival[0];
+        }
+
+        if (user_max_removal->count > 0) {
+                partition_config.max_removal = user_max_removal->ival[0];
+        }
+
+        if (random_removal->count > 0) {
+                partition_config.random_removal = true;
         }
 
         if (fm_search_limit->count > 0) {

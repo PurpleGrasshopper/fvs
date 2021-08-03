@@ -289,6 +289,10 @@ struct PartitionConfig
 
         int walk_length;
 
+        int max_removal;
+
+        bool random_removal;
+
         //=======================================
         //===========SNW PARTITIONING============
         //=======================================
